@@ -4,13 +4,14 @@
     using System.Linq;
 
     using DataAccess;
+    using Interfaces;
     using Models;
 
     public class AnswerMachine
     {
         private readonly IList<PersonModel> model;
 
-        public AnswerMachine(JsonPersonModelLoader loader)
+        public AnswerMachine(IPersonModelLoader loader)
         {
             this.model = loader.GetPeople();
         }
