@@ -1,6 +1,7 @@
 ﻿namespace SW.TechnicalAssignment
 {
     using System;
+
     using Interfaces;
 
     public class ConsoleLogger : ILogger

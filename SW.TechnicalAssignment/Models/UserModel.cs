@@ -4,7 +4,7 @@ namespace SW.TechnicalAssignment.Models
 {
     using DataAccess;
 
-    public class PersonModel
+    public class UserModel
     {
         public int Id { get; set; }
 

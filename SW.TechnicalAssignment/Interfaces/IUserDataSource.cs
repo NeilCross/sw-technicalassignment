@@ -1,10 +1,11 @@
 ﻿namespace SW.TechnicalAssignment.Interfaces
 {
     using System.Collections.Generic;
+
     using Models;
 
-    public interface IPersonModelLoader
+    public interface IUserDataSource
     {
-        IList<PersonModel> GetPeople();
+        IList<UserModel> GetUsers();
     }
 }
